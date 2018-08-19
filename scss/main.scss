@@ -1,6 +1,8 @@
 //Only work and make changes to the scss file as it gets compiled to the main.css after
 //Import config.scss file
-@import 'config';
+@import "config";
+@import "menu";
+@import "mobile";
 * {
     box-sizing: border-box;
 }
