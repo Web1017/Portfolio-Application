@@ -36,6 +36,11 @@
             width: 150px;
             height: 150px;
         }
+    } // About Page Media Sizing
+    .about-info {
+        //Maping out the page (Useful tool)
+        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-columns: 1fr;
     }
 }
 
