@@ -55,6 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -100,7 +101,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/comp-background.jpg);
+    background: url(../img/comp-background2.jpeg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -127,7 +128,8 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(76, 76, 76, 0.5);
+    margin-right: 60%; }
 
 a {
   color: #fff;
@@ -275,7 +277,12 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh; }
+  main {
+    padding: 2rem; }
+    main #home h1 {
+      margin-top: 10vh; }
+    main .lg-heading {
+      margin-top: 1rem;
+      font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }
